@@ -1,0 +1,129 @@
+.solutions-page {
+    width: 100%;
+    overflow: auto;
+    background-color: #1d2731;
+}
+
+
+.solutions-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b3c5d;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2em;
+}
+
+.solutions-page-title {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px #d9b310 solid;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #eeeeee;
+    margin: inherit auto;
+    vertical-align: middle;
+}
+
+.container-left {
+    float: left;
+    width:77% !important;
+}
+
+.container-right {
+    float: right;
+    width:77% !important;
+    margin-left:auto;
+}
+
+.solutions-container {
+    background-color: #eeeeee !important;
+    border-radius: 2vh !important;
+    margin-bottom: 0 !important;
+}
+
+.solutions-container-title {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px #d9b310 solid;
+    font-size: 2.5em;
+    color: #222222;
+    margin: inherit auto;
+}
+
+#arena-container {
+    background: url('/code2.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    padding: 5%;
+}
+
+#katas-container {
+    background: url('/ServerRoom.jpg') no-repeat center center;
+    background-size: cover;
+    display:flex;
+    padding: 5%;
+}
+
+.academyScreenShot {
+    float:right;
+    width:50%;
+    border-radius:2vh;
+}
+
+.arenaScreenShot {
+    float:left;
+    width:50%;
+    border-radius:2vh;
+}
+
+
+.left {
+    width: 40%;
+    float: left;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+@media all and (max-width:1000px){
+    .arenaScreenShot {
+        display:none
+    }
+
+    .academyScreenShot {
+        display: none;
+    }
+
+    .left {
+        align-content: center;
+        width: 95%;
+        display:inline-block;
+        float:none;
+    }
+
+    .right {
+        align-content: center;
+        width: 95%;
+        display:inline-block;
+    }
+
+    .container-left {
+        display:inline-block;
+        width:77% !important;
+    }
+    
+    .container-right {
+        display:inline-block;
+        width:77% !important;
+    }
+
+}
+
+.text-body {
+    font-size: 1em;
+}

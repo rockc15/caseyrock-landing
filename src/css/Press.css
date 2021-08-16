@@ -1,0 +1,140 @@
+.press-page {
+    overflow:auto;
+}
+
+.press-info {
+    max-height: 100%;
+    max-width: 100%;
+} 
+
+.press-title {
+    position: absolute;
+    top: 0.175em;
+    left: 2em;
+    z-index:1;
+    text-align: center;
+    display: flex;
+    font-weight: lighter;
+    font-size: 3vw;
+    color: #eeeeee;
+    border-bottom: .05em #d9b310 solid;
+}
+
+
+.container {
+    background-color: #1d2731 !important;
+}
+
+.title-container{
+    text-align: left;
+}
+
+.title {
+    display: block;
+    border-bottom: .1em #d9b310 solid;
+    font-size: 2.5em;
+    color: #eeeeee;
+    margin: inherit auto;
+}
+
+.subtitle {
+    color: #eeeeee;
+    font-weight: bold;
+    font-size: 1.5em;    
+}
+
+.source-and-date {
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.article-link {
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: .1em #d9b310 solid;
+}
+
+.container-left {
+    float: left;
+    width:77% !important;
+}
+
+.container-right {
+    float: right;
+    width:77% !important;
+}
+
+.container-center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1d2731 !important;
+    width:77vw !important;
+}
+
+.text-page{
+    padding: 1%;
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.about-container {
+    background: url('/ServerRoom.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: #1d2731;
+    overflow: hidden;
+    padding:2%;
+}
+
+.data-container {
+    background: url('/DataBlueAndYellow.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    padding:2%;
+}
+
+a:link {
+    color: #eeeeee;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #eeeeee;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #d9b310;
+    ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #eeeeee;
+  }
+
+.press-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b3c5d;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2em;
+}
+
+.press-page-title {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px #d9b310 solid;
+    font-size: 3em;
+    font-weight: lighter;
+    color: #eeeeee;
+    margin: inherit auto;
+    vertical-align: middle;
+}

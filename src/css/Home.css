@@ -1,0 +1,106 @@
+.home-page {
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.home-info {
+    max-height: 100%;
+    max-width: 100%;
+} 
+
+.home-header-container {
+    width:100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row
+}
+
+.caseyrock-info{
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    text-align: center;
+    display: inline-block;
+    border-bottom: .1em #d9b310 solid;
+    font-size: 5rem;
+    color: #eeeeee;
+    margin: auto;
+}
+
+.container-left {
+    float: left;
+    width:77% !important;
+}
+
+.container-right {
+    float: right;
+    width:77% !important;
+}
+
+.text-page{
+    padding: 2%;
+    color: #eeeeee;
+    font-weight: normal;
+    font-size: 6rem;
+}
+
+.logo {
+    position: absolute;
+    top: 6em;
+    left: 1.5em;
+    width: 5.5vw;
+    z-index:1;
+    background-position: center;
+    background-size: cover;
+    overflow: 'hidden';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    width:5.5vw;
+}
+
+.about-container {
+    background: url('/ServerRoom.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: #1d2731;
+    overflow: hidden;
+    padding:2%;
+}
+
+.data-container {
+    background: url('/DataBlueAndYellow.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    padding:2%;
+}
+
+.CaseyRock-pic{
+    height: 30%;
+    width: 30%;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 900px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .CaseyRock-pic{
+        margin: auto;
+        height: 50%;
+        width: 50%;
+        border-radius: 5%;
+    }
+}

@@ -1,0 +1,32 @@
+.contact-container {
+    width:100%;
+    background-color: #1d2731;
+    padding:5% ;
+}
+
+.contact-form {
+    background-color: #eeeeee;
+    padding:5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 2vh;
+}
+
+.contact-input {
+    margin: 1% auto !important;
+    width: 100%;
+    margin:auto;
+}
+
+.contact-title {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px #d9b310 solid;
+    margin: inherit auto;
+}
+
+.contact-button-container {
+    float: left;
+}

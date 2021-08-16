@@ -1,0 +1,63 @@
+.team-page {
+    background: url("/ComputerWork.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: auto;
+    min-height: 100vh;
+    height:100%;
+}
+
+.team-title {
+    text-align: center;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 3em;
+    margin: inherit auto;
+    color: #eeeeee;
+    border-bottom: 5px #d9b310 solid;
+}
+
+.team-name {
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px #d9b310 solid;
+    font-size: 1.5em;
+    color: #222222;
+    margin: inherit auto;
+}
+
+.team-title-container {
+    width:100%;
+    background-color: #0b3c5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2em;
+}
+
+.card {
+    width: 50vh;
+    margin: 1%;
+    display: inline-block;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 5% 0;
+}
+
+.media-container {
+    height:15%;
+    padding: 5% 0;
+    background: url("/SecurityPixels.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.media {
+    margin: auto;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
