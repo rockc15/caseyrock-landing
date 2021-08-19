@@ -33,8 +33,8 @@ export default class Home extends React.Component {
                                 </div>
                             </div>
                         </Jumbotron>
-
                     </div>
+                    <ContactUs></ContactUs>
 
                     {/* <div className="data-container">
                         <Jumbotron className="container container-left">
@@ -54,8 +54,9 @@ export default class Home extends React.Component {
                             </p>
                         </Jumbotron>
                     </div> */}
+
                 </div>
-                <ContactUs />
+                
             </div>
         );
     }

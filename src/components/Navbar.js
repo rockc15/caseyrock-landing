@@ -11,14 +11,14 @@ export default class Navbar extends React.Component {
                         <NavLink className='link'exact activeClassName='active' to='/'>Home</NavLink>
                     </div>
                     <div >
-                        <NavLink className='link' activeClassName='active' to='/solutions'>Solutions</NavLink>
+                        <NavLink className='link' activeClassName='active' to='/resume'>Resume</NavLink>
                     </div>
-                    <div >
+                    {/* <div >
                         <NavLink className='link' activeClassName='active' to='/mission'>Our Mission</NavLink>
                     </div>
                     <div>
                         <NavLink className='link' activeClassName='active' to='/team'>Our Team</NavLink>
-                    </div>
+                    </div> */}
                     {/* <div>
                         <NavLink className='link' activeClassName='active' to='/blog'>Blog</NavLink>
                     </div> */}

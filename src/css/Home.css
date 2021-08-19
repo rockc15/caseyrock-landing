@@ -15,14 +15,29 @@
 
 .container {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    width:77% !important;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width:77% !important;
+    margin: auto;
+    background-color: #1d2731;
 }
 
 .caseyrock-info{
     padding: 7%;
     display: flex;
     flex-direction: column;
+}
 
+.contact-info{
+    padding: 7%;
+    display: flex;
+    flex-direction:row;
+    margin: auto;
 }
 
 .title {
@@ -34,15 +49,6 @@
     margin: auto;
 }
 
-.container-left {
-    float: left;
-    width:77% !important;
-}
-
-.container-right {
-    float: right;
-    width:77% !important;
-}
 
 .text-page{
     padding: 2%;
@@ -51,26 +57,7 @@
     font-size: 6rem;
 }
 
-.logo {
-    position: absolute;
-    top: 6em;
-    left: 1.5em;
-    width: 5.5vw;
-    z-index:1;
-    background-position: center;
-    background-size: cover;
-    overflow: 'hidden';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-image {
-    width:5.5vw;
-}
-
 .about-container {
-    background: url('/ServerRoom.jpg') no-repeat center center;
     background-size: cover;
     background-color: #1d2731;
     overflow: hidden;
@@ -84,11 +71,28 @@
     padding:2%;
 }
 
+.contact-title{
+    text-align: center;
+    display: inline-block;
+    border-bottom: .1em #d9b310 solid;
+    font-size: 5rem;
+    color: #eeeeee;
+    margin: auto;
+}
+
 .CaseyRock-pic{
     height: 30%;
     width: 30%;
     border-radius: 5%;
 }
+
+
+.circle-pic{
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
+
 
 @media only screen and (max-width: 900px){
     .container {
@@ -103,4 +107,14 @@
         width: 50%;
         border-radius: 5%;
     }
+
+    .contact-title{
+        text-align: center;
+        display: inline-block;
+        border-bottom: .1em #d9b310 solid;
+        font-size: 3rem;
+        color: #eeeeee;
+        margin: auto;
+    }
+    
 }

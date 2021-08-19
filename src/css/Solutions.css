@@ -44,6 +44,11 @@
     margin-bottom: 0 !important;
 }
 
+.resume-pic{
+    height: 100%;
+    width: 100%;
+}
+
 .solutions-container-title {
     text-align: center;
     display: inline-block;
